@@ -1,0 +1,15 @@
+.text-red {
+  color: rgb(255, 0, 0);
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

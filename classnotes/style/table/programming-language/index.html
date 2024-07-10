@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      /* .bg-gray {
+        background-color: #ccc;
+      } */
+
+      .text-center {
+        text-align: center;
+      }
+
+      tr:nth-child(2n) {
+        background-color: #ccc;
+      }
+
+      .table {
+        border-collapse: collapse;
+        min-width: 500px;
+        margin: auto;
+      }
+
+      .table thead {
+        background-color: #000;
+        color: #fff;
+      }
+
+      .table td,
+      .table th {
+        border: 1px solid #000;
+        padding: 0.2rem 0.5rem;
+      }
+
+      .table th {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center">Table</h1>
+
+    <!--
+      Linguagem	Ano de Criação	Autor(es)
+      JavaScript	1995	Brendan Eich
+      Python	1991	Guido van Rossum
+      COBOL	1959	Grace Hopper e outros
+      C	1972	Dennis Ritchie
+      C#	2000	Anders Hejlsberg
+    -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Linguagem</th>
+          <th>Ano de Criação</th>
+          <th>Autor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JavaScript</td>
+          <td>1995</td>
+          <td>Brendan Eich</td>
+        </tr>
+        <tr class="bg-gray">
+          <td>Python</td>
+          <td>1991</td>
+          <td>Guido van Rossum</td>
+        </tr>
+        <tr>
+          <td>COBOL</td>
+          <td>1959</td>
+          <td>Grace Hopper e outros</td>
+        </tr>
+        <tr class="bg-gray">
+          <td>C</td>
+          <td>1972</td>
+          <td>Dennis Ritchie</td>
+        </tr>
+        <tr>
+          <td>C#</td>
+          <td>2000</td>
+          <td>Anders Hejlsberg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
